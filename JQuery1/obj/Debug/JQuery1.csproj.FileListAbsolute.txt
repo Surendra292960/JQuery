@@ -1,0 +1,7 @@
+G:\C#.NetPrograms\JQuery1\JQuery1\bin\Debug\JQuery1.exe.config
+G:\C#.NetPrograms\JQuery1\JQuery1\bin\Debug\JQuery1.exe
+G:\C#.NetPrograms\JQuery1\JQuery1\bin\Debug\JQuery1.pdb
+G:\C#.NetPrograms\JQuery1\JQuery1\obj\Debug\JQuery1.csprojAssemblyReference.cache
+G:\C#.NetPrograms\JQuery1\JQuery1\obj\Debug\JQuery1.csproj.CoreCompileInputs.cache
+G:\C#.NetPrograms\JQuery1\JQuery1\obj\Debug\JQuery1.exe
+G:\C#.NetPrograms\JQuery1\JQuery1\obj\Debug\JQuery1.pdb

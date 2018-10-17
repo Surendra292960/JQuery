@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08A7324C-A2BC-4E1F-BAA0-381E4F6A4466}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>JQuery1</RootNamespace>
+    <AssemblyName>JQuery1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animate.html" />
+    <Content Include="Animate1.html" />
+    <Content Include="Animate2.html" />
+    <Content Include="Animate3.html" />
+    <Content Include="AnimateQueue.html" />
+    <Content Include="AnimationWithLatter.html" />
+    <Content Include="Blur.html" />
+    <Content Include="Callback1.html" />
+    <Content Include="Chaining1.html" />
+    <Content Include="Chaining2.html" />
+    <Content Include="DimensionInnerWidthandHeight.html" />
+    <Content Include="DimensionOuterWidthandHeight.html" />
+    <Content Include="DimensionOuterWidthAndHeight1.html" />
+    <Content Include="DimensionOuterWidthandHeightOnMore.html" />
+    <Content Include="Dimensionresize.html" />
+    <Content Include="DimentionWidthandHeight.html" />
+    <Content Include="GetAttribute.html" />
+    <Content Include="JQueryAddClass.html" />
+    <Content Include="JQUeryAddClass1.html" />
+    <Content Include="JQueryAfter.html" />
+    <Content Include="JQueryAfterAndBefore.html" />
+    <Content Include="JQueryAppend1.html" />
+    <Content Include="JQueryAppend3.html" />
+    <Content Include="JQueryCSSMethod.html" />
+    <Content Include="JQueryCSSSetProperty.html" />
+    <Content Include="JQueryFIlterRemove.html" />
+    <Content Include="JQueryFilterRemoveDemo.html" />
+    <Content Include="JQueryHTML1.html" />
+    <Content Include="JQueryPrepend2.html" />
+    <Content Include="JQueryRemove.html" />
+    <Content Include="JQueryRemove1.html" />
+    <Content Include="JQueryRemoveClass1.html" />
+    <Content Include="JQuerySet.html" />
+    <Content Include="JQuerySet2Callback.html" />
+    <Content Include="JQuerySetAttribute.html" />
+    <Content Include="JQuerySetAttribute1.html" />
+    <Content Include="JQuerySetAttribute3.html" />
+    <Content Include="JQuerySetCSSProperty.html" />
+    <Content Include="JQueryToggleClass.html" />
+    <Content Include="jQueryValue.html" />
+    <Content Include="WithoutCallback.html" />
+    <Content Include="Event1.html" />
+    <Content Include="EventdbClick.html" />
+    <Content Include="FadeIn.html" />
+    <Content Include="FadeInandFadeOut.html" />
+    <Content Include="FadeOut.html" />
+    <Content Include="FadeTo.html" />
+    <Content Include="FadeToggle.html" />
+    <Content Include="Focus.html" />
+    <Content Include="HideandShow.html" />
+    <Content Include="Hover.html" />
+    <Content Include="JQuery1.html" />
+    <Content Include="JQuery2.html" />
+    <Content Include="JQuery3Click.html" />
+    <Content Include="JQuery4ClickId.html" />
+    <Content Include="JQuery5ClickClass.html" />
+    <Content Include="JQueryToggle.html" />
+    <Content Include="MouseDown.html" />
+    <Content Include="MouseEnter.html" />
+    <Content Include="MouseFunction.html" />
+    <Content Include="MouseLeave.html" />
+    <Content Include="MouseUp.html" />
+    <Content Include="OnMethod.html" />
+    <Content Include="SelectStar.html" />
+    <Content Include="SlideDown.html" />
+    <Content Include="SlideToggle.html" />
+    <Content Include="SlideUp.html" />
+    <Content Include="StopMethod.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
